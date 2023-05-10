@@ -1,0 +1,134 @@
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+
+}
+
+.dog-head {
+
+    height: 230px;
+    width: 350px;
+    border-radius: 10% 10% 20% 20% / 16% 16% 24% 24%;
+    background-color: brown;
+    z-index: 1;
+
+
+}
+
+.eye {
+    display: flex;
+    height: 73px;
+    width: 53px;
+
+    border-top-right-radius: 47%;
+    border-top-left-radius: 47%;
+    background-color: white;
+
+}
+
+.eye.left {
+    margin-left: 4.5em;
+    margin-top: 2.5em;
+
+}
+
+
+.eye.right {
+    margin-left: 13.9em;
+    margin-top: -4.5em;
+}
+
+.eyeinside {
+
+    height: 45px;
+    width: 30px;
+    border-top-right-radius: 47%;
+    border-top-left-radius: 47%;
+
+}
+
+.eyeinside.left {
+
+    margin: auto;
+    margin-top: 1.75em;
+    background-color: black;
+}
+
+.eyeinside.right {
+
+    margin: auto;
+    margin-top: 1.75em;
+    background-color: black;
+
+}
+
+.nose {
+    border: solid;
+    height: 0px;
+    width: 0px;
+    margin: auto;
+    border-color: black transparent transparent transparent;
+    border-width: 30px;
+}
+
+.mouth {
+
+
+    height: 30px;
+    width: 180px;
+    margin: auto;
+    margin-top: -1.9em;
+    background-color: black;
+    border-radius: 0% 0% 17% 17% / 0% 0% 100% 100%;
+
+}
+
+.ear {
+    position: absolute;
+
+    height: 130px;
+    width: 70px;
+    border-radius: 100px /160px;
+    margin: auto;
+    background-color: brown;
+
+
+
+
+}
+
+.ear.left {
+    margin-top: -15em;
+    margin-left: -20em;
+
+
+}
+
+.ear.right {
+
+    margin-top: -15em;
+    margin-right: -20em;
+
+}
+
+.earinside {
+
+
+    height: 100px;
+    width: 60px;
+    border-radius: 100px /160px;
+    margin: auto;
+    margin-top: 1em;
+    background-color: rgb(189, 151, 151);
+
+}
